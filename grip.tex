@@ -45,7 +45,7 @@
 		{\Large SIR model}\\[2cm]
 		{\large Seminarski rad}\\[3.5cm]
 		\begin{flushright}
-			{\large Radili: Nikola Stanojević 107/2022}\\[0.8cm]
+			{\large Autori: Nikola Stanojević 107/2022}\\[0.8cm]
 			{\large Mlađan Simić 90/2022}\\[0.8cm]
 		\end{flushright}
 		\vfill
@@ -463,9 +463,23 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.88\textwidth]{fig_scenariji.eps}
+		\includegraphics[width=0.88\textwidth]{scenariji/I_t_scenariji.eps}
 		\caption{Broj zaraženih $\tilde{I}(t)$ za sva četiri scenarija tokom 30 dana.}
 		\label{fig:I_svi}
+	\end{figure}
+
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.88\textwidth]{scenariji/R_t_scenariji.eps}
+		\caption{Broj oporavljenih $\tilde{R}(t)$ za sva četiri scenarija tokom 30 dana.}
+		\label{fig:R_svi}
+	\end{figure}
+
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.88\textwidth]{scenariji/S_t_scenariji.eps}
+		\caption{Broj zdravih $\tilde{S}(t)$ za sva četiri scenarija tokom 30 dana.}
+		\label{fig:S_svi}
 	\end{figure}
 	
 	\begin{table}[H]
@@ -490,10 +504,10 @@
 	\begin{enumerate}
 		\item \textbf{Vakcinacija (sc.\ 1) i karantin (sc.\ 2) daju sličan efekat}:
 		isti $\mathcal{R}_0\approx 1{,}67$ Razlog je što oba scenarija ekvivalentno smanjuju koeficijent prenošenja za 20\%: vakcinacija smanjuje
-		efektivni $S_0$, a karantin smanjuje efektivno $a$. Iako vakcinacija i karantin u ovom modelu daju identičan efekat na osnovni reprodukcioni broj, razlike u početnim uslovima i dinamici sistema dovode do različitih vremenskih tokova epidemije što se vidi na grafiku. Vakcinacija smanjuje maksimalni broj istovremeno zaraženih najbolje od sve 3 mere kao i ukupan broj zaraženih. Karantin manje utiče na ukupan broj zaraženih nego vakcinacija ali je najbolja mera ako hoćemo da spljoštimo krivu i smanjimo pritisak na zdravstveni sistem.  
+		efektivni $S_0$, a karantin smanjuje efektivno $a$. Iako vakcinacija i karantin u ovom modelu daju identičan efekat na osnovni reprodukcioni broj, razlike u početnim uslovima i dinamici sistema dovode do različitih vremenskih tokova epidemije što se vidi na grafiku. Vakcinacija smanjuje maksimalni broj istovremeno zaraženih najbolje od sve 3 mere kao i ukupan broj zaraženih. Karantin manje utiče na ukupan broj zaraženih i manje spljoštava krivu nego vakcinacija, ali predstavlja jeftinu i jednostavnu meru koja može značajno smanjiti pritisak na zdravstveni sistem bez potrebe za medicinskom infrastrukturom.  
 		
 		\item \textbf{Lekovi (sc.\ 3)} daju $\mathcal{R}_0\approx 1{,}74$, što je lošije od
-		prethodna dva scenarija ali bolje od osnovnog. Epidemija dostiže pik ranije (dan 16)
+		prethodna dva scenarija ali bolje od osnovnog. Epidemija dostiže pik ranije (dan 13)
 		i brže prolazi zahvaljujući kraćem trajanju bolesti, ali je ukupan broj zaraženih
 		nešto veći ($\approx 10\,600$) nego kod vakcinacije/karantina. Ipak, lekovi
 		podrazumevaju kraći ukupan period epidemije.
