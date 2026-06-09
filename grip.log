@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.12)  12 MAY 2026 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.12)  9 JUN 2026 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,7 +530,7 @@ been already used, duplicate ignored
 l.57 	\newpage
                [1] [2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.en
 c}] [3]
-Overfull \hbox (14.7117pt too wide) detected at line 232
+Overfull \hbox (14.7117pt too wide) detected at line 231
 \OML/cmm/m/it/12 t \OT1/cmr/m/n/12 = 0 :  [] = 0[]340;  \OML/cmm/m/it/12 t \OT1
 /cmr/m/n/12 = 1 :  [] = 0[]337;  \OML/cmm/m/it/12 t \OT1/cmr/m/n/12 = 2 :  [] =
  0[]336;  \OML/cmm/m/it/12 t \OT1/cmr/m/n/12 = 3 :  [] = 0[]336\OML/cmm/m/it/12
@@ -539,44 +539,84 @@ Overfull \hbox (14.7117pt too wide) detected at line 232
 
 [4]
 Package epstopdf Info: Source file: <fig_basic.eps>
-(epstopdf)                    date: 2026-05-12 14:19:17
-(epstopdf)                    size: 27503 bytes
+(epstopdf)                    date: 2026-06-09 15:54:12
+(epstopdf)                    size: 27487 bytes
 (epstopdf)             Output file: <fig_basic-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-12 14:20:14
-(epstopdf)                    size: 17426 bytes
+(epstopdf)                    date: 2026-06-09 15:54:12
+(epstopdf)                    size: 89850 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_basic-eps-converted-to
 .pdf fig_basic.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
-<fig_basic-eps-converted-to.pdf, id=175, 531.9875pt x 369.38pt>
+<fig_basic-eps-converted-to.pdf, id=175, 532.99126pt x 369.38pt>
 File: fig_basic-eps-converted-to.pdf Graphic file (type pdf)
 <use fig_basic-eps-converted-to.pdf>
-Package pdftex.def Info: fig_basic-eps-converted-to.pdf  used on input line 292
+Package pdftex.def Info: fig_basic-eps-converted-to.pdf  used on input line 291
 .
-(pdftex.def)             Requested size: 366.30399pt x 254.34265pt.
+(pdftex.def)             Requested size: 366.30399pt x 253.8692pt.
  [5 <./fig_basic-eps-converted-to.pdf>] [6] [7]
-Package epstopdf Info: Source file: <fig_scenariji.eps>
-(epstopdf)                    date: 2026-05-12 14:19:12
-(epstopdf)                    size: 53851 bytes
-(epstopdf)             Output file: <fig_scenariji-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-12 14:20:14
-(epstopdf)                    size: 30129 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_scenariji-eps-converte
-d-to.pdf fig_scenariji.eps>
-(epstopdf)             \includegraphics on input line 466.
+Package epstopdf Info: Source file: <scenariji/I_t_scenariji.eps>
+(epstopdf)                    date: 2026-06-09 15:54:12
+(epstopdf)                    size: 40334 bytes
+(epstopdf)             Output file: <scenariji/I_t_scenariji-eps-converted-to.p
+df>
+(epstopdf)                    date: 2026-06-09 15:54:25
+(epstopdf)                    size: 22189 bytes
+(epstopdf)             Command: <repstopdf --outfile=scenariji/I_t_scenariji-ep
+s-converted-to.pdf scenariji/I_t_scenariji.eps>
+(epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
-<fig_scenariji-eps-converted-to.pdf, id=236, 550.055pt x 365.365pt>
-File: fig_scenariji-eps-converted-to.pdf Graphic file (type pdf)
-<use fig_scenariji-eps-converted-to.pdf>
-Package pdftex.def Info: fig_scenariji-eps-converted-to.pdf  used on input line
- 466.
-(pdftex.def)             Requested size: 393.10538pt x 261.12248pt.
- [8] [9 <./fig_scenariji-eps-converted-to.pdf>] [10]
+<scenariji/I_t_scenariji-eps-converted-to.pdf, id=680, 496.85625pt x 318.18875p
+t>
+File: scenariji/I_t_scenariji-eps-converted-to.pdf Graphic file (type pdf)
+<use scenariji/I_t_scenariji-eps-converted-to.pdf>
+Package pdftex.def Info: scenariji/I_t_scenariji-eps-converted-to.pdf  used on 
+input line 465.
+(pdftex.def)             Requested size: 393.10538pt x 251.7499pt.
+ [8]
+Package epstopdf Info: Source file: <scenariji/R_t_scenariji.eps>
+(epstopdf)                    date: 2026-06-09 15:54:12
+(epstopdf)                    size: 41161 bytes
+(epstopdf)             Output file: <scenariji/R_t_scenariji-eps-converted-to.p
+df>
+(epstopdf)                    date: 2026-06-09 15:54:25
+(epstopdf)                    size: 22485 bytes
+(epstopdf)             Command: <repstopdf --outfile=scenariji/R_t_scenariji-ep
+s-converted-to.pdf scenariji/R_t_scenariji.eps>
+(epstopdf)             \includegraphics on input line 472.
+Package epstopdf Info: Output file is already uptodate.
+<scenariji/R_t_scenariji-eps-converted-to.pdf, id=698, 497.86pt x 318.18875pt>
+File: scenariji/R_t_scenariji-eps-converted-to.pdf Graphic file (type pdf)
+<use scenariji/R_t_scenariji-eps-converted-to.pdf>
+Package pdftex.def Info: scenariji/R_t_scenariji-eps-converted-to.pdf  used on 
+input line 472.
+(pdftex.def)             Requested size: 393.10538pt x 251.24496pt.
+Package epstopdf Info: Source file: <scenariji/S_t_scenariji.eps>
+(epstopdf)                    date: 2026-06-09 15:54:12
+(epstopdf)                    size: 41251 bytes
+(epstopdf)             Output file: <scenariji/S_t_scenariji-eps-converted-to.p
+df>
+(epstopdf)                    date: 2026-06-09 15:54:26
+(epstopdf)                    size: 21918 bytes
+(epstopdf)             Command: <repstopdf --outfile=scenariji/S_t_scenariji-ep
+s-converted-to.pdf scenariji/S_t_scenariji.eps>
+(epstopdf)             \includegraphics on input line 479.
+Package epstopdf Info: Output file is already uptodate.
+<scenariji/S_t_scenariji-eps-converted-to.pdf, id=699, 497.86pt x 318.18875pt>
+File: scenariji/S_t_scenariji-eps-converted-to.pdf Graphic file (type pdf)
+<use scenariji/S_t_scenariji-eps-converted-to.pdf>
+Package pdftex.def Info: scenariji/S_t_scenariji-eps-converted-to.pdf  used on 
+input line 479.
+(pdftex.def)             Requested size: 393.10538pt x 251.24496pt.
+ [9 <./scenariji/I_t_scenariji-eps-converted-to.pdf> <./scenariji/R_t_scenariji
+-eps-converted-to.pdf>]
+[10 <./scenariji/S_t_scenariji-eps-converted-to.pdf>] [11]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-45.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+58.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [11] [12] (./grip.aux)
+) [12] [13] (./grip.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -585,13 +625,13 @@ Package rerunfilecheck Info: File `grip.out' has not changed.
 (rerunfilecheck)             Checksum: C6947565D72BFD8CB661B50A0DA1655B;3636.
  ) 
 Here is how much of TeX's memory you used:
- 14912 strings out of 474222
- 231858 string characters out of 5748733
+ 14931 strings out of 474222
+ 232649 string characters out of 5748733
  1947975 words of memory out of 5000000
- 36891 multiletter control sequences out of 15000+600000
+ 36907 multiletter control sequences out of 15000+600000
  574069 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,566b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,644b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -609,10 +649,10 @@ super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb><
 ts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on grip.pdf (13 pages, 374262 bytes).
+Output written on grip.pdf (14 pages, 452596 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1014 PDF objects out of 1200 (max. 8388607)
+ 664 compressed objects within 7 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

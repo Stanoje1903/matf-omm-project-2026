@@ -25,10 +25,13 @@ r_niz = (R_pod(2:end) - R_pod(1:end-1)) ./ I_pod(1:end-1);
 r = mean(r_niz);
 fprintf('Procenjeni r = %.4f dan^-1  (prosecno trajanje bolesti = %.2f dana)\n', r, 1/r);
  
-% Procena a iz dI/dt = a*S*I - r*I
-dI = I_pod(2:end) - I_pod(1:end-1);
-a_niz = (dI + r*I_pod(1:end-1)) ./ (S_pod(1:end-1).*I_pod(1:end-1)/N);
-a = mean(a_niz(1:13));   % prosek preko faze rasta (dani 0-12)
+% Procena a iz dS/dt = -a*S*I
+dS = S_pod(2:end) - S_pod(1:end-1);
+
+a_niz = -dS ./ (S_pod(1:end-1).*I_pod(1:end-1)/N);
+
+a = mean(a_niz);
+
 fprintf('Procenjeni a = %.4f dan^-1\n', a);
  
 S0 = S_pod(1)/N;
